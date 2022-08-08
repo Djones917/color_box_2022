@@ -7,8 +7,7 @@ class Box extends Component {
   }
   render() {
     return (
-      <div className="Box" style={{backgroundColor: this.state.color}}>
-
+      <div className="Box" style={{backgroundColor: this.state.color}} onClick={this.handleClick}>
       </div>
     )
   }
