@@ -5,6 +5,9 @@ class Box extends Component {
     super(props);
     this.state = {color: 'purple'};
   }
+  handleClick() {
+    
+  }
   render() {
     return (
       <div className="Box" style={{backgroundColor: this.state.color}} onClick={this.handleClick}>
