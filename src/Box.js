@@ -3,7 +3,7 @@ import './Box.css';
 
 class Box extends Component {
   static defaultProps = {
-    
+    allColors: ["blue", "purple", "orange", "green"]
   }
   constructor(props) {
     super(props);
