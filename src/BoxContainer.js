@@ -6,9 +6,9 @@ class BoxContainer extends Component {
       numBoxes: 18
    }
    render() {
-      const boxes = Array.from({length: this.props.numBoxes}).map(
-        () => <Box />
-      ) 
+      const boxes = Array.from({ length: this.props.numBoxes }).map(() => (
+         <Box />
+      ));
    }
 }
 
