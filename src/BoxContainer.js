@@ -1,5 +1,5 @@
-import { render } from '@testing-library/react';
 import React, { Component } from 'react';
+import Box from './Box';
 
 class BoxContainer extends Component {
    static defaultProps = {
@@ -9,6 +9,7 @@ class BoxContainer extends Component {
       const boxes = Array.from({ length: this.props.numBoxes }).map(() => (
          <Box />
       ));
+      return <div className='BoxContainer'>{boxes}</div>
    }
 }
 
